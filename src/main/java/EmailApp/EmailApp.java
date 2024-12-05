@@ -94,7 +94,6 @@ public class EmailApp extends JFrame {
                 }
             }
 
-            // Summary message about sending results
             if (successCount > 0) {
                 String message = successCount + " emails successfully sent!";
                 if (errorMessage.length() > 0) {
