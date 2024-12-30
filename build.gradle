@@ -25,7 +25,7 @@ targetCompatibility = '16'
 tasks.javadoc {
     source = sourceSets.main.allJava
     classpath += project.files(configurations.runtimeClasspath)
-    destinationDir = file("C:\\Users\\dreml\\IdeaProjects\\Email/docs/javadoc")
+    destinationDir = file("$buildDir/docs/javadoc")
 }
 
 // Настройка задания shadowJar
